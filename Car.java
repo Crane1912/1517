@@ -11,4 +11,8 @@ public Car(int cap1)
 		return cap;
 	}
 
+	public String CarName(String name1)
+	{
+		return name1;
+	}
 }
