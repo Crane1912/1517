@@ -6,9 +6,9 @@ public class CarTest {
 
 	@Test
 	public void Captest() {
-		Car c1= new Car();
+		Car c1= new Car(200);
 		int c= c1.getEngineCapacity();
-		assertEquals(100,c);
+		assertEquals(200,c);
 	}
 
 }
